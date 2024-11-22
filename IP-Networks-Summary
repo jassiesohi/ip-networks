@@ -1,0 +1,37 @@
+# Version 0.1 - 10102023
+# IP NETWORKS
+
+# IP History
+# Its development began in 1974, led by computer scientists Bob Kahn and Vint Cerf. It is frequently used in conjunction with the Transmission Control Protocol, or TCP. Together they are referred to as TCP/IP.
+
+# The first major version of the Internet Protocol was version 4, or IPv4. In 1981, it was formally defined in RFC 791 by the Internet Engineering Task Force, or IETF.
+
+# Historic document: Read the text of RFC 791.
+# The successor to IPv4 is IPv6, which was formalized by the IETF in 1998. It was designed to eventually replace IPv4. As of 2018, IPv6 governs approximately 20% of all Internet traffic.
+
+
+Class	  Address         range	                Supports
+Class A	1.0.0.1 to 126.255.255.254	    Supports 16 million hosts on each of 127 networks.
+Class B	128.1.0.1 to 191.255.255.254	Supports 65,000 hosts on each of 16,000 networks.
+Class C	192.0.1.1 to 223.255.254.254	Supports 254 hosts on each of 2 million networks.
+Class D	224.0.0.0 to 239.255.255.255	Reserved for multicast groups.
+Class E	240.0.0.0 to 254.255.255.254	Reserved for future use, or research and development purposes.
+
+
+# Private Address Ranges
+
+# The Internet Assigned Numbers Authority (IANA) has assigned several address ranges to be used by private networks.
+
+# Address ranges to be use by private networks are:
+
+Class A: 10.0.0.0 to 10.255.255.255
+Class B: 172.16.0.0 to 172.31.255.255
+Class C: 192.168.0.0 to 192.168.255.255
+
+# An IP address within these ranges is therefore considered non-routable, as it is not unique. Any private network that needs to use IP addresses internally can use any address within these ranges without any coordination with IANA or an Internet registry. Addresses within this private address space are only unique within a given private network.
+
+
+# Ranges 127.x.x.x are reserved for the loopback or localhost, for example, 127.0.0.1 is the loopback address. Range 255.255.255.255 broadcasts to all hosts on the local network
+# Who assigns IP addresses?
+# In most local or home networks, the computer and devices on the network are assigned an internal IP addresses by the router. On the Internet, IP address blocks are assigned out by ICANN to ISPs (Internet service providers) who assign you an IP address from their assigned block of addresses.
+
